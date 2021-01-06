@@ -47,7 +47,7 @@ The rotation method is from the mentioned root and can be 0° / 90° / 180° / 2
 
 ### Game Keys:
 Key | Definition
------------------
+----|-------------
 1 | Start\Restart
 2 | Pause/Continue
 3 | Speed UP
