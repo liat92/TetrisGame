@@ -1,7 +1,7 @@
 #include "TetrisGame.h"
 
 //-----------------------------------------------------------------
-//				      Constructor/Destractor
+//		      Constructor/Destractor
 //-----------------------------------------------------------------
 
 /*
@@ -16,7 +16,7 @@ TetrisGame::TetrisGame()
 }
 
 //-----------------------------------------------------------------
-//			   		  TetrisGame Public function
+//	         TetrisGame Public function
 //-----------------------------------------------------------------
 
 /*
@@ -205,7 +205,7 @@ void TetrisGame::operateBlockByKeyPressed(const char &keyPressed)
 			freeAndCreateNewBlock();//The bomb explode so we need new block
 		} 
 		else if(isOkToMove((Point::eKeys)keyPressed))//There is not an obstacle that will
-															   //explode so just move the bomb
+			//explode so just move the bomb
 			curBlock->move((Point::eKeys)keyPressed);
 	}
 	else if (keyPressed == Point::eKeys::ROTATE)
@@ -385,7 +385,7 @@ bool TetrisGame::isOkToRotate()const
 		tempBlock->rotate();
 
 		bool isRotationValid = isBlockAtValidLocation(tempBlock); //addTo x and y is 0 Because we check the body in his 
-																				//current location- there is no movement
+		//current location- there is no movement
 		delete tempBlock;//Delete temp Block
 		return  isRotationValid;
 	}
@@ -617,7 +617,7 @@ void TetrisGame::bombExplosion()
 }
 
  //-------------------------------------------------------------------------------
- //			   		              Helping functions 
+ //			     Checking functions 
  //-------------------------------------------------------------------------------
 
 /*
