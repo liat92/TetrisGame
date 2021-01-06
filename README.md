@@ -34,16 +34,16 @@ In order to let the user the opportunity to be saved.
 The GOAL of the game is to get the highest score by getting rid of most of the blocks in the game.
 
 ### Operating the block:
--Moving: Right, left and hard drop.
--Rotating:  Generally all blocks get rotated from one root, but since just the shapes: Square, Joker and Bomb can't be seen after rotation then they won't be rotated. 
-The rotation method is from the mentioned root and can be 0° / 90° / 180° / 270° from the basic shape.
--Joker's freezing: Only the joker can be freezed in the user requested place.
+* Moving: Right, left and hard drop.
+* Rotating:  Generally all blocks get rotated from one root, but since just the shapes: Square, Joker and Bomb can't be seen after rotation then they won't be rotated. 
+ The rotation method is from the mentioned root and can be 0° / 90° / 180° / 270° from the basic shape.
+* Joker's freezing: Only the joker can be freezed in the user requested place.
 
 ### Operating the game:
--Start: Choose to start a new game at any minute. 
--Speed up and down : Control the game speed- speed it up or slow it down.
--Pause/Continue : Pause the game at any moment and continue it from the point you stopped with the same key.
--Exit: Exit the game at any moment.
+* Start: Choose to start a new game at any minute. 
+* Speed up and down : Control the game speed- speed it up or slow it down.
+* Pause/Continue : Pause the game at any moment and continue it from the point you stopped with the same key.
+* Exit: Exit the game at any moment.
 
 ### Game Keys:
 Key | Definition
