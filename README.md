@@ -46,26 +46,27 @@ The rotation method is from the mentioned root and can be 0° / 90° / 180° / 2
 -Exit: Exit the game at any moment.
 
 ### Game Keys:
-1-Start\Restart
-2-Pause/Continue
-3-Speed UP
-4-Slow Down
-5-save
-6-load
-9-Exit
-
-r-Rotate
-e-Stop move (joker only)
-f-hard drop down
-a-left
-d-right
+Key | Definition
+-----------------
+1 | Start\Restart
+2 | Pause/Continue
+3 | Speed UP
+4 | Slow Down
+5 | Save
+6 | Load
+9 | Exit
+r | Rotate
+e | Stop move (joker only)
+f | Hard drop down
+a | Left
+d | Right
                                     
 ### Score calculation:
 
-*Hard Drop:              2 * Distance
-*Lines cleared:          100 + (number of lines cleared - 1) * 200
-*Bomb Explosion         (-50) * (number of block parts exploded)
-*Joker Line Cleared      50
+* Hard Drop:              2 * Distance
+* Lines cleared:          100 + (number of lines cleared - 1) * 200
+* Bomb Explosion         (-50) * (number of block parts exploded)
+* Joker Line Cleared      50
 
 Note: The category of joker’s clear means that if the joker is the block shape that will make the line full than clear the line and update the score.
 
