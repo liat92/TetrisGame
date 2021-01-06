@@ -3,7 +3,7 @@ A Tetris Console game that was the main project of the Object-Oriented Programmi
 The game was done in the first year of my BSc Computer Science degree.
 
 ## Credits
-This game project was made by Liat Matzov ([liat92](https://github.com/liat92)) and Linoy Mizrahi ([](link)) .
+This game project was made by Liat Matzov ([liat92](https://github.com/liat92)) and Linoy Mizrahi ([linoymiz](https://github.com/linoymiz)) .
 
 ## More Gameplay Information
 This Tetris is a game that has random block shapes falling during the game and the player needs to fit every block to another so there are no empty spaces.
