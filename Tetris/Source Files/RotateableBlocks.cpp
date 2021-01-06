@@ -1,7 +1,7 @@
 #include "RotateableBlock.h"
 
 //-----------------------------------------------------------------
-//					        constructors 
+//		           Constructors 
 //-----------------------------------------------------------------
 
 /*
@@ -13,7 +13,7 @@ RotateableBlocks::RotateableBlocks(int xCord, int yCord, int numOfPoints, eAngle
 RotateableBlocks::RotateableBlocks(const RotateableBlocks &other) : Block(other), curAngle(other.curAngle) {}
 
 //-----------------------------------------------------------------
-//                    RotateableBlocks Public functions 
+//                RotateableBlocks Public functions 
 //-----------------------------------------------------------------
 
 /*
